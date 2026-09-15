@@ -1,0 +1,12 @@
+NOT DEPLOYED — run locally using docs/setup-guide.md
+
+To run:
+  cd src
+  npm install
+  npm run dev
+  Open: http://localhost:5173
+
+Accepted options:
+  - A public URL (Vercel, Render, IBM Cloud, Railway, etc.)
+  - A localhost URL with note that it requires local setup
+  - "NOT DEPLOYED" — judges will run it locally using your setup guide

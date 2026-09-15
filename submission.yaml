@@ -1,0 +1,83 @@
+# =============================================================================
+# HACKATHON SUBMISSION METADATA
+# =============================================================================
+# Instructions:
+#   - Fill in ALL required fields (marked with # REQUIRED)
+#   - Optional fields can be left as empty strings ""
+#   - Do NOT rename this file — the evaluation pipeline reads it by name
+#   - Use double quotes around all string values
+# =============================================================================
+
+team:
+  name: "VOIDX"                             # REQUIRED
+  track: "AI"                               # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  lead:
+    name: "Team Lead"                       # REQUIRED
+    email: "team@supplyguard.ai"            # REQUIRED
+  members:
+    - name: "Team Member 1"
+      email: "member1@supplyguard.ai"
+    - name: "Team Member 2"
+      email: "member2@supplyguard.ai"
+    - name: "Team Member 3"
+      email: "member3@supplyguard.ai"
+
+submission:
+  title: "SupplyGuard AI"                   # REQUIRED
+
+  problem_statement: >                      # REQUIRED
+    Supply chain disruptions such as port strikes, weather events, and
+    geopolitical crises cascade across hundreds of active shipments simultaneously,
+    making it impossible for logistics managers to track impact, re-route cargo,
+    or detect cold-chain temperature excursions before costly and irreversible
+    damage occurs.
+
+  solution_summary: >                       # REQUIRED
+    SupplyGuard AI is a web-based Supply Chain Control Tower that identifies
+    affected shipments in real time, recommends AI-scored alternative routes,
+    matches idle fleet assets for redeployment, and monitors cold-chain IoT
+    sensor data with regulatory-grade severity classification — all in a single
+    dashboard powered by IBM Bob.
+
+  key_features:
+    - "Disruption Dashboard: real-time view of active disruptions with affected shipment count and severity"
+    - "Shipment Impact Analysis: automatic AFFECTED / AT RISK / NOT AFFECTED classification across all shipments"
+    - "AI Rerouting Recommendation: scored alternative routes with cost, delay, risk, carrier, and confidence"
+    - "Fleet Utilisation Optimizer: idle asset detection and intelligent redeployment scoring"
+    - "Cold Chain IoT Monitoring: temperature excursion detection with MINOR/MODERATE/SEVERE/CRITICAL regulatory classification"
+
+  tech_stack:
+    languages: ["TypeScript"]
+    frameworks: ["React 18", "Vite", "Tailwind CSS v4", "Recharts"]
+    ibm_technologies: ["IBM Bob AI"]
+    databases: []
+    other: ["Lucide React", "GitHub Actions"]
+
+  what_we_are_most_proud_of: >
+    The fully explainable AI recommendation engine — every rerouting suggestion,
+    fleet redeployment match, and cold-chain severity classification shows exactly
+    WHY it was made, with transparent scoring factors and natural-language
+    reasoning. The entire application works offline with zero external API
+    dependencies, making the demo 100% reliable. IBM Bob designed, implemented,
+    reviewed, and fixed the entire codebase end-to-end.
+
+  known_limitations: >
+    All logistics data is simulated — no live external APIs are connected in
+    the MVP. The AI Copilot uses a local rule-based engine rather than a live
+    LLM (the architecture is structured to support IBM watsonx integration
+    without UI changes). No user authentication or multi-tenant support.
+    The application is optimized for desktop; mobile layout is functional but
+    not polished.
+
+# =============================================================================
+# ARTIFACT LOCATIONS
+# These paths are relative to the repo root. Only change if you moved files.
+# =============================================================================
+artifacts:
+  source_code: "src/"
+  setup_guide: "docs/setup-guide.md"
+  architecture_doc: "docs/architecture.md"
+  demo_video: "demo/demo-video-link.txt"
+  live_demo: "demo/live-demo-url.txt"
+  screenshots: "demo/screenshots/"
+  presentation: "presentation/"
