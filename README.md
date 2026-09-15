@@ -6,11 +6,12 @@
 
 ## 👥 Team
 
-| Name |                     | Role |
-Smit Chotai         Team Lead + Product/AI Integration Lead
-Kush Makadia        Backend & AI/Logic Lead
-Kevin Varia         Frontend & UI/UX Lead
-Prem Maniar         QA + Documentation + Demo Lead
+| Name         | Role                                   |
+|--------------|----------------------------------------|
+| Smit Chotai  | Team Lead + Product/AI Integration Lead |
+| Kush Makadia | Backend & AI/Logic Lead                |
+| Kevin Varia  | Frontend & UI/UX Lead                  |
+| Prem Maniar  | QA + Documentation + Demo Lead         |
 ---
 
 ## 📋 Problem Statement
