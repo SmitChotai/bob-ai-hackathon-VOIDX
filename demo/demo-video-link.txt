@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 https://youtu.be/your-demo-video-link-here
 
 Replace the URL above with a link to your demo video.
+=======
+NOT DEPLOYED — Demo video to be recorded after final demo session.
+
+To run locally and record: see docs/setup-guide.md
+>>>>>>> master
 
 Accepted platforms:
   - YouTube (public or unlisted)

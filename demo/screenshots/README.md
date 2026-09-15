@@ -6,10 +6,19 @@ Place your application screenshots in this folder.
 
 Name your screenshots sequentially so they appear in logical order:
 
+<<<<<<< HEAD
   01-landing-page.png       ← First thing a user sees
   02-main-feature.png       ← Your primary feature in action
   03-output-or-results.png  ← The result / value delivered
   04-additional-feature.png ← Any other notable screen
+=======
+  01-disruption-dashboard.png   ← Disruption Dashboard with Mumbai Port Strike
+  02-shipment-impact.png        ← Shipment table with AFFECTED/AT RISK/OK badges
+  03-rerouting-recommendation.png ← AI rerouting panel for SH-002
+  04-fleet-utilisation.png      ← Fleet table with redeployment recommendation
+  05-cold-chain-alert.png       ← MED-001 temperature excursion alert
+  06-ai-copilot.png             ← AI Copilot chat with action summary
+>>>>>>> master
 
 ## Requirements
 
